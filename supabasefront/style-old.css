@@ -1,0 +1,83 @@
+/* Centralização de cabeçalho */
+h1 {
+  text-align: center;
+  color: #e91e63; /* Rosa principal */
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+/* Estilização geral para seções principais */
+#product-list,
+#add-product,
+#update-product {
+  margin-top: 50px;
+  text-align: center;
+  padding: 20px;
+  background-color: #4a4a4a; /* Fundo cinza intermediário */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  color: #ffffff; /* Texto branco */
+}
+
+/* Estilização de formulários */
+form {
+  margin-top: 20px;
+  background-color: #3c3c3c; /* Fundo dos formulários */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  display: inline-block;
+  text-align: left;
+}
+
+/* Estilização dos rótulos */
+form label {
+  display: inline-block;
+  width: 120px;
+  text-align: left;
+  font-weight: bold;
+  color: #ffffff; /* Texto branco */
+}
+
+/* Campos de entrada de texto e número */
+form input[type="text"],
+form input[type="number"] {
+  display: inline-block;
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #e91e63; /* Borda rosa */
+  border-radius: 8px;
+  background-color: #4a4a4a; /* Fundo dos campos */
+  color: #ffffff; /* Texto branco */
+  margin-left: 10px;
+}
+
+form input[type="text"]:focus,
+form input[type="number"]:focus {
+  border-color: #ff4081; /* Rosa mais claro */
+  outline: none;
+}
+
+/* Ajuste adicional para alinhamento e espaçamento */
+form input,
+form button {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* Botões de formulário */
+form button {
+  padding: 10px 20px;
+  background-color: #e91e63; /* Rosa principal */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+  background-color: #ff4081; /* Rosa mais claro */
+  transform: scale(1.05);
+}
